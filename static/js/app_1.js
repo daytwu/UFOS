@@ -4,17 +4,7 @@ const tableData = data;
 // Reference the HTML table using d3
 var tbody = d3.select('tbody');
 
-// Simple Javascript console.log statement
-function printHello(){
-    console.log('Hello there!');
-}
-
-// functions can call other functions
-function doubleAddition(c, d) {
-    var total = addition(c, d) * 2;
-    return total;
-}
-
+// Function for building the UFO table
 function buildTable(data) {
     // first, clear out any existing data
     tbody.html('');
@@ -27,17 +17,16 @@ function buildTable(data) {
 
         // Loop through each field in the dataRow and add
         // each value as a table cell (td)
-        Object.values(dataRow.forEach((val) => {
+        Object.values(dataRow).forEach((val) => {
             let cell = row.append('td');
             cell.text(val);
-            }
-        );
+            });
     });
 }
 
 function handleClick() {
     let date = d3.select('#datetime').property('value');
-    let filterdData = tableData;
+    let filteredData = tableData;
 
     // Check to see if a date was entered and filter the
     // data using that date.
