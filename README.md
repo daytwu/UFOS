@@ -6,10 +6,13 @@
   
 ### Results: Describe to Dana how someone might use the new webpage by walking her through the process of using the search criteria. Use images of your webpage during the filtering process to support your explanation.
 
-<img width="803" alt="Webpage filter screenshot_2" src="https://user-images.githubusercontent.com/68725398/102500584-76cf8080-404a-11eb-9cd4-e93e7af6c073.png">
+<img width="1248" alt="Webpage filter screenshot_date" src="https://user-images.githubusercontent.com/68725398/102506137-cfa21780-4050-11eb-9fc2-6547addc9e63.png">
+
+
 
 In the above image, the filter is filled in with a date on the first 
-<img width="811" alt="Webpage filter screenshot" src="https://user-images.githubusercontent.com/68725398/102500582-7636ea00-404a-11eb-9b50-0c0e1e7f78c8.png">
+
+<img width="1247" alt="Webpage filter screenshot_state" src="https://user-images.githubusercontent.com/68725398/102506139-cfa21780-4050-11eb-88c4-c489d676dbeb.png">
 
 
 
